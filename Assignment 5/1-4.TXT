@@ -1,0 +1,34 @@
+Answers to pre questions:
+
+1.)
+public static void removeZeros(ArrayList<Integer>myList)
+{
+for(int i = myList.size(0) - 1; i >= 0; i--)
+if(myList.get(i) = = 0)
+myList.remove(i);
+}
+
+2.)
+public static int countLetters(ArrayList<String>myList)
+{
+int count = 0;
+for(String s : myList)
+count+= s.length();
+return count;
+}
+
+3.)
+public static int findPosition(int keyValue, ArrayList<Integer>myArray)
+{
+for(int i = 0; i < myArray.size(); i++)
+if(myArray.get(i) = = keyValue)
+return i;
+else
+return -1;
+}
+
+4.)
+//because java can be a clown you can just do this if the input is already there
+System.out.println(Input);
+
+
